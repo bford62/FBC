@@ -6,7 +6,7 @@ const IndexPage = () => {
   return (
     <Layout pageTitle="Friendship Baptist Church">
       <StaticImage alt="Friendship Baptist Church" src="../images/FBC.png" />
-      <h2>Welcome to Friendship Baptist Church's "Proff of Concept" site!</h2>
+      <h2>Welcome to Friendship Baptist Church's "Proof of Concept" site!</h2>
       <p>God Bless!</p>
     </Layout>
   );
