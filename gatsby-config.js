@@ -1,9 +1,16 @@
 module.exports = {
-    siteMetadata: {
-      title: "My First Gatsby Site",
+  siteMetadata: {
+    title: "Friendship Baptist Church Plainfield IL.",
+  },
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: `blog`,
+        path: `${__dirname}/blog`,
+      },
     },
-    plugins: [
-      "gatsby-plugin-image",
-      "gatsby-plugin-sharp",
-    ],
-  };
+  ],
+};
