@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 
 const WhoWeAre = () => {
   return (
-    <Layout pageTitle>Who We Are>
+    <Layout pageTitle>Who We Are
       <h2>Who We Are</h2>
       <p>Friendship Baptist Church exists to transform the spiritual landscape of western Will County by loving God, by making friends with people who don’t know God yet, and by helping people to become fully-devoted followers of Jesus Christ.  We believe the Great Commandment (<a href="https://www.biblegateway.com/passage/?search=Matthew+22%3A37-40&version=NIV">Matthew 22:37-40</a>) and the Great Commission (<a href="https://www.biblegateway.com/passage/?search=Matthew+28%3A18-20&version=NIV">Matthew 28:18-20</a>) give us the five biblical purposes of the church that must drive us.  Those purposes follow:</p>
       <ol>

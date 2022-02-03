@@ -1,6 +1,8 @@
-import * as React from "react";
+// import * as React from "react";
 import Layout from "../components/layout";
 import { StaticImage } from "gatsby-plugin-image";
+import React, { useState, useRef, useEffect } from "react"
+import uuid from "uuid"
 
 const IndexPage = () => {
   return (
